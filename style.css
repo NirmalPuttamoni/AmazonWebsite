@@ -2,7 +2,6 @@
     margin: 0;
     font-family: Arial;
     border: border-box;
-    /* background-color: gray; */
 }
 
 .navbar {
@@ -157,6 +156,10 @@ span {
     margin: 0 8px;
 }
 
+.hero-shop-container {
+    background-color: #e2e7e6;
+}
+
 .hero-message {
     background-color: white;
     color: black;
@@ -164,7 +167,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 97%;
+    width: 98%;
 }
 
 .hero-message a {
@@ -174,8 +177,10 @@ span {
 /* shop section  */
 .shop-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    transform: translateY(-60%);
+    transform: translateY(-30%);
+    height: 685px;
 }
 
 .box {
@@ -184,6 +189,7 @@ span {
     padding: 0 10px;
     background-color: white;
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .box-content {
@@ -200,7 +206,7 @@ span {
 }
 
 .box p {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     margin-bottom: 15px;
 }
 
@@ -212,8 +218,13 @@ span {
 
 .box1_img {
     width: 9.5dvw;
-    height: 125px;
+    height: 17.5dvh;
     margin-top: 10px;
+}
+
+.box5 .box1_img{
+    height: 15.6dvh;
+    width: 9.5dvw;
 }
 
 .box h2 {
@@ -229,10 +240,69 @@ span {
 }
 
 
+/* footer */
+
+.footer_panel1{
+    height: 50px;
+    color: white;
+    background-color: #37455a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.footer_panel2{
+    background-color: #222f3d;
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 50px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.footer_panel2 p{
+    font-weight: 700;
+}
+
+.footer_panel3{
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    border-top: 0.1px dotted white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_panel3_img{
+    background-image: url("assets/AMZN_BIG.D-8fb0be81.png");
+    background-size: cover;
+    height: 20px;
+    width: 67px;
+}
+
+.footer_panel4{
+    background-color: #0F1111;
+    height: 80px;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright{
+    padding-top: 5px;
+}
 
 
 
 
-a {
+a{
     text-decoration: none;
+    color: #dddddd;
 }
