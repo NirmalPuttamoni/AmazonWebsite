@@ -176,8 +176,9 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    transform: translateY(-43%);
-    height: 38.5em;
+    position: relative;
+    top: -16.5em;
+    margin-bottom: -16em;
 }
 
 .box {
