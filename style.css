@@ -5,12 +5,13 @@
 }
 
 .navbar {
-    height: 4em;
+    height: 60px;
     background-color: #0F1111;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding : 0 1rem;
 }
 
 .nav-logo {
@@ -55,7 +56,7 @@
 .nav-search {
     display: flex;
     height: 40px;
-    width: 50em;
+    width: 55rem;
     background-color: #febd68;
     border-radius: 5px;
 }
@@ -72,7 +73,7 @@
 .search-input {
     width: 100%;
     border: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .search-icon {
@@ -117,7 +118,7 @@ span {
     height: 40px;
     background-color: #222f3d;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: white;
     align-items: center;
 }
@@ -125,15 +126,16 @@ span {
 .panel-all {
     font: 14px "Amazon Ember", Arial, sans-serif;
     font-weight: 700;
+
 }
 
 .panel-ops p {
     display: inline;
-    margin-right: 15px;
+    margin-right: 1rem;
 }
 
 .panel-ops {
-    width: 70%;
+    width: 80%;
     font-size: 0.85rem;
 }
 
